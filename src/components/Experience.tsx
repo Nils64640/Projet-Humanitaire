@@ -258,7 +258,7 @@ const Experience = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-gray-800/60 p-5 rounded-lg border border-indigo-500/20 group-hover:border-indigo-500/30 transition-colors duration-300">
                   <h4 className="text-lg font-medium text-indigo-300 mb-3 group-hover:text-indigo-200 transition-colors duration-300">De l'aide ponctuelle à l'accompagnement</h4>
-                  <p className="text-gray-300 group-hover:text-gray-200 transition-colors duration-300">Ils sont passés d'une logique d'assistance immédiate à une démarche d'accompagnement sur le long terme.</p>
+                  <p className="text-gray-300 group-hover:text-gray-200 transition-colors duration-300">Les bénévoles sont passés d'une logique d'assistance immédiate à une démarche d'accompagnement sur le long terme.</p>
                 </div>
                 <div className="bg-gray-800/60 p-5 rounded-lg border border-indigo-500/20 group-hover:border-indigo-500/30 transition-colors duration-300">
                   <h4 className="text-lg font-medium text-indigo-300 mb-3 group-hover:text-indigo-200 transition-colors duration-300">Implication des bénéficiaires</h4>
