@@ -57,7 +57,7 @@ const Testimonials = () => {
               </div>
               
               <blockquote className="text-xl md:text-2xl text-center italic text-gray-300 mb-6">
-                "Je suis fière d'être membre de la MDCB car c'est une association a taille humaine avec des bénévoles exceptionnels qui donnent tout ce qu'ils ont pour aider les plus démunis"
+                "Je suis fière d'être membre de la MDCB car c'est une association à taille humaine avec des bénévoles exceptionnels qui donnent tout ce qu'ils ont pour aider les plus démunis"
               </blockquote>
               
               <div className="w-16 h-1 bg-gradient-to-r from-purple-400 to-pink-600 my-6"></div>
