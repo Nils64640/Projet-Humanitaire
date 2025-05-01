@@ -24,7 +24,7 @@ const Mission = () => {
     },
     {
       icon: <Users className="w-8 h-8 text-pink-500" />,
-      title: "Création de lien humain",
+      title: "Création de liens humains",
       content: "Création de liens sociaux et d'espaces d'écoute pour rompre l'isolement et redonner confiance et dignité aux personnes accompagnées."
     },
     {
