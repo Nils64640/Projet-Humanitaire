@@ -218,7 +218,7 @@ const Experience = () => {
                     terme, sans se contenter de satisfaire sa conscience de façon illusoire.
                   </p>
                   <p className="group-hover:text-gray-200 transition-colors duration-300">
-                   Les bénévoles de la maraude m'ont permis de comprendre que rien de tout cela n'est nécessaire. Juste un peu de temps et de motivation. Et ce n'est pas un échange à sens unique loin de là ! A partager avec les bénéficiaires, ce sont tout un tas d'histoires personnelles, souvent dramatiques, des leçons d'humilité que j'ai reçues. De quoi largement relativiser nos petits tracas quotidiens face à leur détresse réelle. Avec en prime, la sensation unique de faire quelque chose de juste sans en attendre une quelconque récompense. 
+                   Et ce n'est pas un échange à sens unique loin de là ! A partager avec les bénéficiaires, ce sont tout un tas d'histoires personnelles, souvent dramatiques, des leçons d'humilité que j'ai reçues. De quoi largement relativiser nos petits tracas quotidiens face à leur détresse réelle. Avec en prime, la sensation unique de faire quelque chose de juste sans en attendre une quelconque récompense. 
                   </p>
                   <p className="group-hover:text-gray-200 transition-colors duration-300">
                     On dit souvent que "les jeunes ne s'engagent plus". Par le biais de ce projet
@@ -227,7 +227,7 @@ const Experience = () => {
                   <p className="group-hover:text-gray-200 transition-colors duration-300">
                     Participer à une maraude, c'est comprendre que la pauvreté, l'exclusion et
                     l'isolement ne sont pas des phénomènes lointains, mais des réalités qui se
-                    manifestent à chaque coin de rue, dans chaque ville, dans chaque quartier. C'est prendre conscience qu'il existe des personnes qui, malgré tous leurs efforts, n'ont plus les moyens d'être entendus, d'être vus. Mais c'est aussi comprendre qu'un simple geste, une écoute bienveillante, une parole rassurante, peuvent parfois constituer un véritable changement dans leur quotidien.
+                    manifestent à chaque coin de rue, dans chaque ville, dans chaque quartier. C'est prendre conscience qu'il existe des personnes qui, malgré tous leurs efforts, n'ont plus les moyens d'être entendues, d'être vues. Mais c'est aussi comprendre qu'un simple geste, une écoute bienveillante, une parole rassurante, peuvent parfois constituer un véritable changement dans leur quotidien.
                   </p>
                   <p className="group-hover:text-gray-200 transition-colors duration-300">
                     Pour moi, cet engagement représente bien plus qu'un acte ponctuel. C'est une
