@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+}
+
+body {
+  @apply bg-gray-950 text-white;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optimized animations with will-change and transform3d */
+@keyframes particle-drift {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg) scale(1);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translate3d(var(--drift-x, 0), calc(var(--drift-y, 0) * 0.5), 0) rotate(180deg) scale(1.2);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate3d(calc(var(--drift-x, 0) * -0.5), var(--drift-y, 0), 0) rotate(360deg) scale(0.8);
+    opacity: 0.8;
+  }
+  75% {
+    transform: translate3d(calc(var(--drift-x, 0) * 0.8), calc(var(--drift-y, 0) * -0.8), 0) rotate(540deg) scale(1.1);
+    opacity: 0.6;
+  }
+}
+
+@keyframes nebula-shift {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translate3d(20px, -20px, 0) scale(1.2);
+    opacity: 0.6;
+  }
+}
+
+@keyframes shooting-star {
+  0% {
+    transform: translate3d(-100%, -100%, 0);
+    opacity: 0;
+  }
+  10%, 40% {
+    opacity: 1;
+  }
+  60%, 100% {
+    transform: translate3d(200%, 200%, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes drift {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(45deg) scale(2);
+  }
+  50% {
+    transform: translate3d(20px, -20px, 0) rotate(45deg) scale(2);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate3d(20px, -30px, 0) rotate(90deg);
+  }
+  50% {
+    transform: translate3d(-20px, -10px, 0) rotate(180deg);
+  }
+  75% {
+    transform: translate3d(10px, -40px, 0) rotate(270deg);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale3d(1, 1, 1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+    opacity: 0.8;
+  }
+}
+
+.animate-particle-drift {
+  animation: particle-drift var(--duration, 15s) ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.animate-nebula-shift {
+  animation: nebula-shift 8s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.animate-shooting-star {
+  animation: shooting-star 4s linear infinite;
+  will-change: transform, opacity;
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-pulse-custom {
+  animation: pulse 3s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes scroll-down {
+  0%, 100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translate3d(0, 6px, 0);
+    opacity: 0.4;
+  }
+}
+
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    transform: scale3d(1, 1, 1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1);
+    opacity: 0.8;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+  will-change: transform, opacity;
+}
+
+.animate-fade-in-delay {
+  animation: fade-in 1s ease-out 0.3s forwards;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.animate-fade-in-delay-2 {
+  animation: fade-in 1s ease-out 0.6s forwards;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+
+.animate-scroll-down {
+  animation: scroll-down 1.5s infinite;
+  will-change: transform, opacity;
+}
+
+.animate-gradient {
+  animation: gradient 8s linear infinite;
+  will-change: background-position;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.bg-300\% {
+  background-size: 300% 100%;
+}
+
+/* Optimized scrollbar */
+.styled-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.05);
+}
+
+.styled-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.styled-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.styled-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.styled-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Performance optimized background patterns */
+.bg-pattern-grid {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-attachment: fixed;
+  will-change: transform;
+}
+
+.bg-pattern-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-attachment: fixed;
+  will-change: transform;
+}
+
+.bg-pattern-waves {
+  background: linear-gradient(45deg, 
+    rgba(168, 85, 247, 0.1) 0%,
+    rgba(168, 85, 247, 0.05) 50%,
+    rgba(217, 70, 239, 0.1) 100%
+  );
+  background-size: 200% 200%;
+  background-attachment: fixed;
+  animation: gradient 15s ease infinite;
+  will-change: background-position;
+}
+
+/* Optimized 3D transforms */
+.perspective-1000 {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.transform-gpu {
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+/* Fixed particle container with hardware acceleration */
+.particle-container {
+  position: fixed !important;
+  pointer-events: none;
+  z-index: 0;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
+}
