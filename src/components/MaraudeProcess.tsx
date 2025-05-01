@@ -42,7 +42,7 @@ const MaraudeProcess = () => {
   const attentionPoints = [
     {
       title: "Approche Respectueuse",
-      content: "Les abordent toujours les personnes avec respect, en demandant si elles souhaitent recevoir leur aide, sans imposer leur présence."
+      content: "Les bénévoles abordent toujours les personnes avec respect, en demandant si elles souhaitent recevoir leur aide, sans imposer leur présence."
     },
     {
       title: "Écoute Active",
