@@ -39,7 +39,7 @@ const HumanitarianActions = () => {
       ],
       content: [
         "Avant toutes autres actions, il faut préparer les repas en vue de la distribution aux personnes nécessiteuses.",
-        "Nous les avons préparés directement dans les locaux de l'association. L'organisation était très rigoureuse et l'hygiène primordiale : lavage de mains et utilisation de gants et tabliers pour les préparateurs. Chaque bénévole avait un rôle précis : découper les légumes, cuire les féculents, assembler les sandwichs, conditionner les repas dans des contenants adaptés, etc.",
+        "Nous les avons préparés directement dans les locaux de l'association. L'organisation était très rigoureuse et l'hygiène primordiale : lavage de mains et utilisation de charlottes pour les préparateurs. Chaque bénévole avait un rôle précis : découper les légumes, cuire les féculents, assembler les sandwichs, conditionner les repas dans des contenants adaptés, etc.",
         "Le but était de préparer des dizaines de repas à distribuer. Le fait de voir toutes ces barquettes alignées, prêtes à être distribuées, a donné une véritable satisfaction collective. Cela m'a également fait prendre conscience que derrière une distribution réussie, il y a énormément de travail en amont."
       ]
     },
