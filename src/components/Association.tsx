@@ -37,7 +37,7 @@ const Association = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-10 pointer-events-none transform scale-110"
         style={{ 
-          backgroundImage: 'url(https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00008.jpeg?raw=true)',
+          backgroundImage: 'url(https://i.imgur.com/GlPOTha.jpeg)',
           transform: isInView ? 'scale(1.1)' : 'scale(1)',
           transition: 'transform 1.5s ease-out'
         }}
