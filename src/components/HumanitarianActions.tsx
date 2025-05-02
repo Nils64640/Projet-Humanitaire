@@ -22,9 +22,9 @@ const HumanitarianActions = () => {
       subtitle: "Préparation de repas au local de l'association",
       icon: <Utensils className="w-12 h-12 text-pink-500" />,
       images: [
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/1.jpg?raw=true",
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00023.jpeg?raw=true",
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/2.jpg?raw=true"
+        "https://i.imgur.com/QaRJF5d.jpeg",
+        "https://i.imgur.com/H90GwSG.jpeg",
+        "https://i.imgur.com/od97S5x.jpeg"
       ],
       keyPoints: [
         { icon: <ShieldCheck />, text: "Organisation rigoureuse" },
@@ -48,9 +48,9 @@ const HumanitarianActions = () => {
       subtitle: "Participation à une maraude dominicale",
       icon: <Route className="w-12 h-12 text-pink-500" />,
       images: [
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00005.jpeg?raw=true",
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/4.jpg?raw=true",
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00018.jpeg?raw=true"
+        "https://i.imgur.com/2IKnJGT.jpeg",
+        "https://i.imgur.com/6fenNvN.jpeg",
+        "https://i.imgur.com/eJFa7pD.jpeg"
       ],
       keyPoints: [
         { icon: <Calendar />, text: "Maraude du dimanche après-midi" },
@@ -77,9 +77,9 @@ const HumanitarianActions = () => {
       subtitle: "Collecte de denrées et accessoires d'hygiène",
       icon: <ShoppingBag className="w-12 h-12 text-pink-500" />,
       images: [
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00027.jpeg?raw=true",
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00013.jpeg?raw=true",
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/5.jpg?raw=true"
+        "https://i.imgur.com/6pa8Nv1.jpeg",
+        "https://i.imgur.com/dla3wwr.jpeg",
+        "https://i.imgur.com/iqM2v1i.jpeg"
       ],
       keyPoints: [
         { icon: <MapPin />, text: "Présence en magasins" },
