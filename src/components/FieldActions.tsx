@@ -18,9 +18,9 @@ const FieldActions = () => {
   });
   
   const images = [
-   "https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00014.jpeg?raw=true",
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00006.jpeg?raw=true",
-        "https://github.com/Nils64640/photo-humanitaire/blob/main/photo/image00020.jpeg?raw=true"
+   "https://imgur.com/DG91h2J",
+        "https://imgur.com/SOnzac5",
+        "https://imgur.com/hHq8KUG"
   ];
   
   const handlePrevSlide = () => {
