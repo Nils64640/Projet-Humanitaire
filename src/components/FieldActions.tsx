@@ -18,9 +18,9 @@ const FieldActions = () => {
   });
   
   const images = [
-   "https://imgur.com/DG91h2J",
-        "https://imgur.com/SOnzac5",
-        "https://imgur.com/hHq8KUG"
+   "https://i.imgur.com/e8KchGa.jpeg",
+        "https://i.imgur.com/DG91h2J.jpeg",
+        "https://i.imgur.com/SOnzac5.jpeg"
   ];
   
   const handlePrevSlide = () => {
