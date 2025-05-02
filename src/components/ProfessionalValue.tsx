@@ -41,7 +41,7 @@ const ProfessionalValue = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-20 pointer-events-none"
         style={{ 
-          backgroundImage: 'url(https://github.com/Nils64640/photo-humanitaire/blob/main/6.jpg?raw=true)'
+          backgroundImage: 'url(https://i.imgur.com/bMTytfr.jpeg)'
         }}
       ></div>
       
