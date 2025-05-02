@@ -68,7 +68,7 @@ const Presentation = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur-xl transform group-hover:scale-110 transition-transform duration-700"></div>
               <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-white/10 transform transition-transform duration-500 hover:scale-105">
                 <img
-                  src="https://github.com/Nils64640/photo-humanitaire/blob/main/photo/P1151967.jpg?raw=true"
+                  src="https://raw.githubusercontent.com/Nils64640/photo-humanitaire/main/photo/P1151967.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
