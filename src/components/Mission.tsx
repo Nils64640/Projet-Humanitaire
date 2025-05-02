@@ -47,7 +47,7 @@ const Mission = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-20 pointer-events-none"
         style={{ 
-          backgroundImage: 'url(https://raw.githubusercontent.com/Nils64640/photo-humanitaire/main/9.jpg)'
+          backgroundImage: 'url(https://github.com/Nils64640/photo-humanitaire/blob/main/9.jpg?raw=true)'
         }}
       ></div>
       
