@@ -81,7 +81,7 @@ const Presentation = () => {
               </span>
               <span className="block w-20 h-1 bg-gradient-to-r from-purple-400 to-pink-600 mx-auto mt-4"></span>
             </h2>
-            <p className="text-gray-300 mt-4">Etudiant engagé</p>
+            <p className="text-gray-300 mt-4">Etudiant Engagé</p>
           </div>
 
           {/* Introduction with enhanced glass effect */}
